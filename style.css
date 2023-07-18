@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(188, 188, 188);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* styling header */
+.box-header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+}
+
+.box-header p {
+    font-weight: normal;
+    font-size: 14px;
+    color:rgb(188, 188, 188);
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+/* styling box body */
+.body {
+    width: 700px;
+    background-color: rgb(236, 236, 236);
+    margin: auto;
+    margin-top: -23px;
+    padding-top: 0.1px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+/* styling bagian services */
+.services {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px 10px;
+    background-color: rgb(236, 236, 236);
+    margin: 0px 80px;
+}
+
+.services > div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
+}
+
+/* styling bagian team */
+.team {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+  
+.team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: -40px;
+    text-align: center;
+}
+
+.li1 {
+    margin-left: -20px;
+}
+
+.team2 {
+    margin-top: -20px;
+}
+
+.flex-list {
+    display: flex;
+    margin-top: -20px;
+}
+
+.flex-list p {
+    margin-top: -15px;
+}
+
+.team2 p {
+    margin-top: -15px;
+}
+
+/* menghilangkan dot pada list team */
+.team ul {
+    list-style-type: none;
+}
+
+/* styling contact */
+.contact p {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: smaller;
+}
+
+/* styling get in touch */
+.get-in-touch {
+    text-align: center;
+    justify-content: center;
+
+}
+
+input {
+    width: 70%;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+textarea {
+    width: 70%;
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.btn-send-message {
+    text-align: inherit;
+}
+
+/* styling footer */
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    font-size: 10px;
+    padding: 1px 0px;
+}
